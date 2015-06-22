@@ -11,8 +11,8 @@ public class AlbumTest {
     public void testProperties() throws Exception {
         Album album = new Album();
         album.setName("Rumours");
-        album.setId(13L);
-        assertThat(album.getName()).isEqualTo("Rumours");
+        album.setId(12L);
+        assertThat(album.getName()).isEqualTo("California Hotel");
         assertThat(album.getId()).isEqualTo(13L);
     }
 }
